@@ -5,7 +5,7 @@ export default function Nav() {
   return (
     <nav className="navbar navbar-expand-md navbar-dark bg-transparent">
       <a className="navbar-brand" href="index.html">
-        <img id="frog-logo" src="./Assets/frog-logo.png" />
+        <img id="frog-logo" src="./frog-logo.png" />
       </a>
       <button
         className="navbar-toggler"
@@ -89,16 +89,16 @@ export default function Nav() {
               target="_blank"
             >
               <img
-                src="./Assets/Salesforce_Logo_Web_2019.png"
+                src="./Salesforce_Logo_Web_2019.png"
                 className="img-responsive down-logo"
               />{" "}
               Credentials
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="./blog.html">
-              Blog
-            </a>
+            <Link to="/blog">
+              <a className="nav-link">Blog</a>
+            </Link>
           </li>
         </ul>
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import SocialLinks from "./SocialLinks";
 
-export default function Resume() {
+export default function Home() {
   return (
     <div className="container">
       <div className="row row-style under-hero">
@@ -13,7 +13,7 @@ export default function Resume() {
       </div>
       <div className="row row-style under-hero">
         <div className="col-sm-12  text-center col-md-6">
-          <img className="centralImg" src="./Assets/ehson.jpg" />
+          <img className="centralImg" src="./ehson.jpg" />
         </div>
         <div className="col-sm-12 col-md-6 text-center ">
           <p>
