@@ -1,6 +1,6 @@
 # LiveLink
 
-Navigate to the website by clicking [Ehson Raza -React.js Portfolio](https://ehson2-react-portfolio.herokuapp.com/)
+Navigate to the website by clicking the [Link](https://ehson2-react-portfolio.herokuapp.com/)
 
 ## Description
 
